@@ -21,6 +21,9 @@
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
+		<!-- our custom css -->
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+		
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
@@ -33,10 +36,22 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
+		
 	</head>
 
 	<body>
 
+		<img alt="University of Dayton" style="
+		border:0;
+		background:rgba(255,255,255,0.6);
+		padding: 10px 10px 10px 10px;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		z-index:1000;
+		width: 150px
+		" src="./img/ud_word_mark.svg">
+	
 		<div class="reveal">
 
 			<!-- Any section element inside of this container is displayed as a slide -->
@@ -44,7 +59,7 @@
 			<div class="slides">
 				<section>
 					<h1>Intro to SQL </h1>
-					<h3>Working with the Sierra back end database</h3>
+					<h3>Working with the Sierra Back End Database</h3>
 					<p>
 						<small>
 							Joan Milligan and Ray Voelker
@@ -54,6 +69,20 @@
 						
 					</p>
 				</section>
+				
+				<section data-background="./img/roesch_library_crop.jpg">
+					<h1><span class="standout">Purpose</span></h1>
+					
+					<div class="fragment lightbackground">
+						<ul>
+							<li>Overview of SQL</li>
+							<li class="fragment">Why Could It Be Useful</li>
+							<li class="fragment">Some Examples</li>
+						</ul>
+					</div>
+					
+				</section>
+				
 				
 				<section>
 					<h1>Documentation</h1>
@@ -71,11 +100,44 @@
 						</ul>
 				</section>
 
+				
+				<section data-background-video="./img/crash.webm" data-background-video-loop>
+					<h1>
+						<span class="standout">Crash Course In SQL and Relational Databases</span>
+					</h1>
+				</section>
+								
 				<section>
 					<h1>What is SQL?</h1>
-					<img src="img/simple_bib_title_query.png">
 				</section>
 
+				<section>
+					<h1>What is a Relational Database?<h1>
+				</section>
+				
+				<section>
+					<section data-transition-speed="fast" data-transition="none">
+						<h3>Relational Database Table Relationship</h3>
+						<img style="border:0px" src="./img/generic_sql_table_relationship_0.png">
+					</section>
+					<section data-transition-speed="fast" data-transition="none">
+						<h3>Relational Database Table Relationship</h3>
+						<img style="border:0px" src="./img/generic_sql_table_relationship_1.png">
+					</section>
+				</section>
+				
+				<section>
+					<section data-transition-speed="fast" data-transition="none">
+						<h3>SQL Query "JOIN"</h3>
+						<img style="border:0;" src="img/simple_bib_title_query.png">
+					</section>
+					<section data-transition-speed="fast" data-transition="none">
+						<h3>SQL Query "JOIN" Results</h3>
+						<img style="border:0;" src="img/simple_bib_title_query_output_big.png">
+					</section>
+				</section>
+				
+				
 			</div>
 			<!-- div class slides -->
 
